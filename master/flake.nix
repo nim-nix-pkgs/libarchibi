@@ -11,6 +11,7 @@
   inputs.src-libarchibi-master.ref   = "refs/heads/master";
   inputs.src-libarchibi-master.owner = "juancarlospaco";
   inputs.src-libarchibi-master.repo  = "libarchibi";
+  inputs.src-libarchibi-master.dir   = "";
   inputs.src-libarchibi-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
